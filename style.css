@@ -69,10 +69,17 @@ input{
     color: midnightblue;
     font-size: clamp(1rem, 3.5vw, 1.8rem);
     font-weight: bold; 
+    border-bottom: 1px solid #8ca1c1;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #quote, #history{
     color: midnightblue;
     font-size: clamp(1rem, 3.5vw, 1.8rem);
-    font-weight: bold; 
+    font-weight: bold;
+    border-bottom: 1px solid #8ca1c1;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
+
