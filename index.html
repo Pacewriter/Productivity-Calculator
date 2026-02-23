@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" 
+        content = "width=device-width, initial-scale=1.0">
+        <title>My website</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet" />
+    </head>
+    <style>
+        
+    </style>
+
+    <body>
+
+        <div class="container">
+
+            <div class= " text-center rounded">
+                <i class="bi bi-check2-circle" style="font-size: 60px;"></i>
+            </div>
+
+            <div class="resultSection">
+                <h1>FocusTime Productivity Calculator</h1>
+
+                <hr />
+                <br />
+
+                <div class="form">
+                    <div>
+                        <label for="name">Enter your name:</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                    </div>
+
+                    <div>
+                        <label for="worked">Hours worked:</label>
+                        <input type="number" id="worked" placeholder="Hours worked">
+                    </div>
+
+                    <div>
+                        <label for="wasted">Hours wasted:</label>
+                        <input type="number" id="wasted" placeholder="Hours wasted">
+                    </div>
+                </div>
+
+                <button onclick="calculate()" class="btn btn-primary w-100 py-2" type="submit">Calculate</button>
+                
+                
+            </div>
+
+            <hr />
+
+            <div id="result"></div> 
+
+
+            <hr />
+
+            <p>Stay Focused. Stay Productive! </p>
+
+
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script src="./index.js" charset="UTF-8"></script>
+    </body>
+    
+</html>    
