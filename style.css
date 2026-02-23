@@ -1,0 +1,78 @@
+.container{
+    
+    margin: auto;
+    padding: 20px;
+    max-width: 70%
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+h1{
+  color: midnightblue;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  margin-top: 5%;
+}
+
+p{
+  color: midnightblue;
+  font-size: clamp(1rem, 3.5vw, 1.8rem);
+  font-weight: bold;
+}
+
+h2{
+  color: midnightblue;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  font-weight: bolder;  
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    gap: 30px;
+}
+
+label{
+    color: midnightblue;
+    font-size: clamp(1rem, 3.5vw, 1.5rem);
+    font-weight: bold;
+    margin-right: 2%;
+}
+
+input{
+    width: 100%;
+}
+
+.form-group{
+    display: flex;
+
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer p{
+    color: midnightblue;
+    font-weight: lighter;
+    font-size: clamp(1rem, 3.5vw, 1.5rem);;
+}
+
+.button{
+    text-align: center;
+}
+
+#result, #message, #hoursRemain{
+    color: midnightblue;
+    font-size: clamp(1rem, 3.5vw, 1.8rem);
+    font-weight: bold; 
+}
+
+#quote, #history{
+    color: midnightblue;
+    font-size: clamp(1rem, 3.5vw, 1.8rem);
+    font-weight: bold; 
+}
